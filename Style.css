@@ -1,0 +1,175 @@
+﻿.body {
+    background-color: #f4e592;
+    font-family: 'Times New Roman';
+
+}
+.Logo
+{
+    height:40px;
+    margin: 5px 5px;
+     
+}
+.Navigate-Bar {
+    height: 57px;
+    top: 0;
+    position: sticky;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f0d0eb;
+    background-color: #f4e592;
+    z-index: 2;
+}
+.Search-Bar
+{
+    display: inline-flex;
+    width: 60%;
+}
+.mainheader {
+    text-align: center;
+    font-style: normal;
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    top: 0px;
+    margin-top: 9px;
+    margin-left: 300px;
+}
+.Search {
+    background: #f0d0eb;
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid #f0d0eb;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.Menu {
+    background: #f0d0eb;
+    border: 1px solid #f0d0eb;
+    margin: 8.5px 8.5px 0px 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.mainmenu
+{
+    width: 40%;
+    height: 57px;
+    float: right;
+
+}
+.mainmenu ul {
+    display: inline-flex;
+    float: right;
+}
+
+.LayerInfo{
+    display: block;
+    margin-left: 0;
+    position: absolute;
+    top: 15%;
+    opacity:0;
+    width: 70%;
+}
+.mainmenu ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+.mainmenu ul li {
+    border-left: 1px solid #f0d0eb;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: #f0d0eb;
+    cursor: pointer;
+}
+.discrition {
+    text-align:left;
+}
+.Buy {
+    height: 300px;
+    width: 400px;
+}
+.header {
+    text-align: center;
+    position: static;
+}
+.Gselling {
+    margin-top: 180px;
+    width: 400px;
+    height: 800px;
+    position: static;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+.LoadPic {
+    height: 300px;
+    width: 400px;
+}
+.Product {
+    margin-top: 80px;
+    height: 600px;
+    width: 800px;
+    position: static;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #f97200;
+}
+.imgslid {
+    height: 600px;
+    width: 800px;
+}
+.infoimg{
+    width : 400px;
+    height: 600px;
+    
+}
+
+ @media only screen and (max-width:1000px)
+ {
+     .Navigate-Bar
+     {
+         height: 115px;
+         border-bottom: 0;
+     }
+     .Search
+     {
+         width: 100%;
+         height:50%;
+     }
+    .Search-Bar {
+        width: 100%;
+        height: 50%;
+    }
+    .Menu {
+        height: 50%;
+    }
+    .mainmenu {
+        width: 100%;
+    }
+    .mainmenu ul{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .mainmenu ul li{
+        height: 60px;
+        width: 100%;
+    }
+    .mainheader {
+        height: 50%;
+        width: 200%;
+    }
+
+
+ }
+ 
